@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>My Website</title>
+</head>
+<body>
+
+<h1 class="shiny-text">Welcome to My Website</h1>
+
+<form id="registrationForm">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+
+    <button type="button" onclick="register()">Register</button>
+</form>
+
+<div id="registrationResult"></div>
+
+<h2>Latest News</h2>
+
+<div class="article">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Tass_logo_share_en.png" alt="News Image">
+    <h3>Breaking News: Exciting Developments Unveiled!</h3>
+    <p>In this website you can find range of articles such as geopolitics, domestic politics, economics, trade
+science and technology.</p>
+</div>
+
+<div class="article">
+    <img src="https://freelogopng.com/images/all_img/1684119240bbc-logo-png.png" alt="News Image">
+    <h3>Technology Advancements: A Glimpse into the Future</h3>
+    <p>The website is intended to publish journals related to natural science only. Please visit us again to see other features.
+We are working to include fashion and business.</p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
